@@ -18,7 +18,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 # Cohere API Key
-COHERE_API_KEY = "BeIF2VVhn9UmerIX9Am6diBoY3r1gYC3GVgwRiBe"  # Replace with your Cohere API key
+COHERE_API_KEY = "API_KEY"  # Replace with your Cohere API key
 
 # Initialize Cohere client
 cohere_client = cohere.Client(COHERE_API_KEY)
