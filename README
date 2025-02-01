@@ -5,6 +5,3 @@ The application will start at http://127.0.0.1:8000. You can interact with it us
 Upload PDF: POST /upload-pdf/
 
 Query Vector DB: POST /query/
-
-
-
